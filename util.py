@@ -92,7 +92,7 @@ def visualize_data_gif_patch(data_):
         dy = y*0
         img = np.concatenate((dx, x, dy, y, dy, z), axis=1)
         images.append(img)
-    imageio.mimsave("/tmp/gif.gif", images, duration=0.01)
+    imageio.mimsave("/tmp/gif.gif", images, duration=0.08)
     return Image(filename="/tmp/gif.gif", format='png')
 
 
