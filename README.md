@@ -23,12 +23,15 @@ Adversarial attacks have been done on patches of size (160, 160, 16) to reduce c
 * Dice Coefficient of prediction after attack: 0.43321887
 
 Ground Truth:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/iFGSM/GroundTruth.gif)
 
 Prediction before attack:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/iFGSM/PredBeforeAttack.gif)
 
 Prediction after attack:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/iFGSM/PredAfterAttack.gif)
 
 ### Targeted Iterative Fast Gradient Sign Method (tiFGSM):
@@ -37,12 +40,15 @@ Prediction after attack:
 * Dice Coefficient of prediction after attack: 0.53347206
 
 Ground Truth:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/tiFGSM/GroundTruth.gif)
 
 Prediction before attack:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/tiFGSM/PredBeforeAttack.gif)
 
 Prediction after attack:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/tiFGSM/PredAfterAttack.gif)
 
 ### Carlini and Wagner Attack (CW):
@@ -51,12 +57,15 @@ Prediction after attack:
 * Dice Coefficient of prediction after attack: 0.45113495
 
 Ground Truth:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/CW/GroundTruth.gif)
 
 Prediction before attack:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/CW/PredBeforeAttack.gif)
 
 Prediction after attack:
+
 ![GIF of Ground Truth for iFGSM](/GIFs/CW/PredAfterAttack.gif)
 
 ### References:
