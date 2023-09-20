@@ -1,3 +1,5 @@
+# NOTE: Some code was borrowed from: https://github.com/ellisdg/3DUnetCNN/blob/master/unet3d/
+
 import cv2
 import h5py
 import imageio
@@ -94,10 +96,6 @@ def visualize_data_gif_patch(data_):
         images.append(img)
     imageio.mimsave("/tmp/gif.gif", images, duration=0.08)
     return Image(filename="/tmp/gif.gif", format='png')
-
-
-# Some code was borrowed from:
-# https://github.com/ellisdg/3DUnetCNN/blob/master/unet3d/
 
 
 def create_convolution_block(input_layer, n_filters, batch_normalization=False,
